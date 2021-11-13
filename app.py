@@ -6,7 +6,7 @@ app = Flask(__name__,static_folder='static')
 
 @app.route('/maleria')
 def dynamic_page():
-    return final.Malarial.runScript("images/111.jpg")
+    return final.Malarial.runScript("images/56.png")
 
 
 @app.route('/size')
